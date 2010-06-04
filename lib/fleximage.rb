@@ -5,7 +5,7 @@ require 'aws/s3'
 
 # Load RMagick
 begin
-  require 'RMagick'
+  require 'rmagick'
 rescue MissingSourceFile => e
   puts %{ERROR :: FlexImage requires the RMagick gem.  http://rmagick.rubyforge.org/install-faq.html}
   raise e
